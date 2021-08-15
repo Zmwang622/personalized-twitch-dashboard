@@ -16,7 +16,7 @@ const Home = () => {
     if (value) {
       console.log(`value: ${value}`)
 
-      // Call Twitch APIt
+      // Call Twitch API
       const path = `https://${window.location.hostname}`
 
       const response = await fetch(`${path}/api/twitch`, {
